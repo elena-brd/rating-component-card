@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #262322;
+    color: #fff;
+    line-height: 1.5;
+    padding: 0 2rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 7rem auto;
+}
+
+/* card content */
+#card-content {
+    background: #4d2a22;
+    border: 2px solid #63372c;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    padding: 2rem;
+}
+
+/* star icon and rating numbers */
+#rating-card .star-icon,
+#rating-card .rating div {
+    color: #ffbcb5;
+    background: rgba(242, 229, 215, 0.1);
+    width: 47px;
+    height: 45px;
+    padding-top: 0.6rem;
+    border-radius: 50%;
+    text-align: center;
+}
+
+#rating-card .rating div {
+    color: #f2e5d7;
+    cursor: pointer;
+}
+
+/* title and subtitle for the 1 card */
+.title h2 {
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin: 1rem 0 0.5rem;
+}
+
+.subtitle-text {
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    color: #f2e5d7;
+}
+
+/* ratings */
+.rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rating div {
+    margin-top: 1rem;
+}
+
+#rating-card .rating div:hover {
+    background: #f2e5d7;
+    color: #262322;
+}
+
+#submited-card {
+    text-align: center;
+    padding: 1rem 0;
+    display: none;
+}
